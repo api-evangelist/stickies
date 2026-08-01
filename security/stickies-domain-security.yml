@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: probed
+note: >-
+  The company's only known domain, stickies.wtf, no longer resolves — every DNS
+  query (A, AAAA, NS, MX, TXT, CAA, DNSKEY, _dmarc, www) returns NXDOMAIN from
+  the .wtf zone, and HTTPS connections fail. The 0-working/probe-domain-security.py
+  probe reported the host unreachable and declined to write; this file records the
+  manual dig/curl observations. Wayback Machine shows the site last live 2023-03-11,
+  returning 403 by 2024-08, confirming the company appears defunct.
+hosts:
+- host: stickies.wtf
+  https: false
+  error: DNS NXDOMAIN — connection impossible
+- host: www.stickies.wtf
+  https: false
+  error: DNS NXDOMAIN — connection impossible
+domains:
+- domain: stickies.wtf
+  resolves: false
+  dns_status: NXDOMAIN
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+evidence:
+- 'dig SOA stickies.wtf -> status: NXDOMAIN (authority: wtf. zone SOA, 2026-07-21)'
+- 'dig A/AAAA/NS/MX/TXT/CAA/DNSKEY stickies.wtf -> NXDOMAIN (2026-07-21)'
+- 'curl https://stickies.wtf and https://www.stickies.wtf -> exit 000, no connection (2026-07-21)'
+- 'web.archive.org: last 200 capture 2023-03-11; 403 by 2024-08-09'

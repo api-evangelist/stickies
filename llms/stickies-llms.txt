@@ -1,0 +1,20 @@
+# Stickies
+
+> Stickies (stickies.wtf) was a Los Angeles-based consumer web3 product by BYO Labs that made "dumb stickers and GIFs starring your favorite NFTs" — users connected a crypto wallet and generated stickers/GIFs of their NFT avatars. Backed by Lightspeed Venture Partners (~$5.5M raised); founded circa 2022 by Tom Wright and Sterling Barnett. No public developer API, documentation, or SDK was ever published. The company appears defunct: stickies.wtf was last live in 2023 and the domain no longer resolves (NXDOMAIN as of 2026-07).
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + web.archive.org/web/20230311114204/https://stickies.wtf/ (site offline; /llms.txt unreachable — domain NXDOMAIN) -->
+
+## Company
+
+- [Website (offline, NXDOMAIN)](https://www.stickies.wtf/)
+- [Archived homepage (2023-03-11)](https://web.archive.org/web/20230311114204/https://stickies.wtf/)
+- [Twitter](https://twitter.com/stickiesxyz)
+- [Lightspeed portfolio page](https://lsvp.com/company/stickies/)
+
+## APIs
+
+None. Stickies exposed no public developer API, docs, or SDK; the product was a wallet-connect consumer web app only.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/stickies/refs/heads/main/apis.yml)

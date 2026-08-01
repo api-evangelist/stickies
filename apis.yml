@@ -1,8 +1,29 @@
 aid: stickies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stickies.png
 name: Stickies
-description: Stickies is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Stickies (stickies.wtf) was a Los Angeles-based consumer web3 company, built
+  by BYO Labs, that made "dumb stickers and GIFs starring your favorite NFTs" —
+  users connected a crypto wallet holding their NFTs and generated custom
+  stickers and GIFs of those avatars for use in messaging and social apps.
+  Founded around 2022 by Tom Wright (CEO) and Sterling Barnett (COO), it raised
+  roughly $5.5M with backing from Lightspeed Venture Partners (Jeremy Liew).
+  The product was a closed consumer web app with no public developer API,
+  documentation, or SDK. The company appears defunct: the stickies.wtf site
+  was last captured live in 2023, returned 403s by mid-2024, and the domain no
+  longer resolves (NXDOMAIN) as of July 2026; co-founder Sterling Barnett has
+  since moved on to other ventures.
 url: https://raw.githubusercontent.com/api-evangelist/stickies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,38 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: 'consumer NFT sticker/GIF web app (wallet-connect only); no public
+  developer API/docs/SDK found; domain stickies.wtf NXDOMAIN and company appears
+  defunct (probed 2026-07-21)'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- NFT
+- Web3
+- Stickers
+- GIFs
+- Avatars
+- Messaging
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.stickies.wtf/
+- type: Twitter
+  url: https://twitter.com/stickiesxyz
+- type: LLMsTxt
+  url: llms/stickies-llms.txt
+- type: DomainSecurity
+  url: security/stickies-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
