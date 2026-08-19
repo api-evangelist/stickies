@@ -34,7 +34,7 @@ x-tier-reason: portfolio-lead
 x-no-api-surface: 'consumer NFT sticker/GIF web app (wallet-connect only); no public
   developer API/docs/SDK found; domain stickies.wtf NXDOMAIN and company appears
   defunct (probed 2026-07-21)'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
